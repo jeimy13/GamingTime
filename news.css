@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20 20px;
+    color: #fff;
+    background-color: rgba(0, 136, 255, 0);
+}
+
+/* Encabezado y Barra de Navegación */
+/* Encabezado */
+header {
+    background-color: #ffffff00;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background-color: #ff0000;
+}
+
+/* Centrar texto de navegación */
+header nav ul {
+    text-align: center;
+}
+
+/* Formulario de Comentarios */
+.comentario-form {
+    background-color: #ffffff00;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.comentario-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.comentario-form input[type="text"],
+.comentario-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #b5909000;
+    border-radius: 5px;
+}
+
+.comentario-form button {
+    background-color: #ff0066;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.comentario-form button:hover {
+    background-color: #ff0000;
+}
+
+/* Sección de Comentarios */
+.comentarios {
+    background-color: #ffffff00;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.comentarios h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.comentarios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comentarios li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #000000;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Sección de Comentarios - Colores Alternos */
+.comentarios li:nth-child(even) {
+    background-color: #f0f0f000;
+}
+
